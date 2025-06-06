@@ -1,0 +1,14 @@
+[workspace]
+authors = ["tdinapoli <tomas.dina98@gmail.com>"]
+channels = ["conda-forge"]
+name = "monochromator_aruino_l5"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.3,<3.14"
+ipykernel = ">=6.29.5,<7"
+pyyaml = ">=6.0.2,<7"
+pyserial = ">=3.5,<4"
